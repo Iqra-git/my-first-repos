@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management System - Home</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; color: #333;">
+    <header style="background-color: #444; color: white; padding: 20px; text-align: center;">
+        <h1 style="margin: 0; font-size: 2.5em;">Welcome to Our Gym</h1>
+        <nav>
+            <ul style="list-style: none; padding: 0; margin: 10px 0; display: flex; justify-content: center; gap: 15px;">
+                <li><a href="index.html" style="color: white; text-decoration: none; padding: 8px 15px; border: 2px solid white; border-radius: 5px; transition: 0.3s;">Home</a></li>
+                <li><a href="Aboutus.html" style="color: white; text-decoration: none; padding: 8px 15px; border: 2px solid white; border-radius: 5px; transition: 0.3s;">About Us</a></li>
+                <li><a href="membership.html" style="color: white; text-decoration: none; padding: 8px 15px; border: 2px solid white; border-radius: 5px; transition: 0.3s;">Membership</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main style="text-align: center; padding: 50px 20px;">
+        <h2 style="font-size: 2em; margin-bottom: 20px; color: #444;">Your Fitness Journey Starts Here!</h2>
+        <p style="font-size: 1.2em; line-height: 1.6; max-width: 600px; margin: 0 auto; color: #666;">
+            Join us to achieve your fitness goals with our state-of-the-art equipment and expert trainers.
+        </p>
+    </main>
+    <footer style="background-color: #444; color: white; text-align: center; padding: 15px; margin-top: 30px;">
+        <p style="margin: 0; font-size: 1em;">&copy; 2023 Gym Management System</p>
+    </footer>
+
+    <script>
+        // Adding hover effect to navigation links
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('mouseover', () => {
+                link.style.backgroundColor = 'white';
+                link.style.color = '#444';
+            });
+
+            link.addEventListener('mouseout', () => {
+                link.style.backgroundColor = 'transparent';
+                link.style.color = 'white';
+            });
+        });
+    </script>
+</body>
+</html>
